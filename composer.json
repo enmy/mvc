@@ -1,0 +1,21 @@
+{
+    "name": "enmy/mvc",
+    "description": "Aplicacion con arquitectura MVC",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Enmy Perez",
+            "email": "enmyperez@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "enmy/framework": "dev-dev"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/enmy/framework"
+        }
+    ]
+}

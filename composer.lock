@@ -1,0 +1,112 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "eb56f00192ca7b5922be0f6f9550bdf1",
+    "packages": [
+        {
+            "name": "enmy/framework",
+            "version": "dev-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/enmy/framework.git",
+                "reference": "037501e20c91349c5602239b3211bd9f5d78e7ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/enmy/framework/zipball/037501e20c91349c5602239b3211bd9f5d78e7ad",
+                "reference": "037501e20c91349c5602239b3211bd9f5d78e7ad",
+                "shasum": ""
+            },
+            "require": {
+                "smarty/smarty": "^3.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Framework\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Enmy Perez",
+                    "email": "enmyperez@gmail.com"
+                }
+            ],
+            "description": "Framework MVC para proyectos",
+            "support": {
+                "source": "https://github.com/enmy/framework/tree/dev",
+                "issues": "https://github.com/enmy/framework/issues"
+            },
+            "time": "2017-10-30T02:29:27+00:00"
+        },
+        {
+            "name": "smarty/smarty",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smarty-php/smarty.git",
+                "reference": "dd9c076dfaef0be4059961e09b9ca1f706c0feff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/dd9c076dfaef0be4059961e09b9ca1f706c0feff",
+                "reference": "dd9c076dfaef0be4059961e09b9ca1f706c0feff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "libs/bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2017-10-26T08:25:41+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "enmy/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
